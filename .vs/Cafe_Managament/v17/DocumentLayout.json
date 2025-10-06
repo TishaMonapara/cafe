@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|c:\\users\\hp\\onedrive\\desktop\\asp.net_parvez_sir\\cafe_managament\\user\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|c:\\users\\hp\\onedrive\\desktop\\asp.net_parvez_sir\\cafe_managament\\user\\viewmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\viewmenu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\admin\\additem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:admin\\additem.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\user\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HP_ONEDRIVE_DESKTOP_ASP.NET_PARVEZ_SIR_CAFE_MANAGAMENT_APP_DATA_CAFEDB.MDF/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\user\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\user\\blog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\blog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\user\\category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\user\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\user\\category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5C0AC1-1DA1-430E-A1F0-4F12D553CB1C}|Cafe_Managament.csproj|solutionrelative:user\\category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HP_ONEDRIVE_DESKTOP_ASP.NET_PARVEZ_SIR_CAFE_MANAGAMENT_APP_DATA_CAFEDB.MDF/True/SqlTable/dbo.User_tbl.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\.gitignore",
+              "RelativeDocumentMoniker": "User\\.gitignore",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\.gitignore",
+              "RelativeToolTip": "User\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-06T09:32:47.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewMenu.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\ViewMenu.aspx",
+              "RelativeDocumentMoniker": "User\\ViewMenu.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\ViewMenu.aspx",
+              "RelativeToolTip": "User\\ViewMenu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-24T06:05:34.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\Admin\\Admin.Master",
+              "RelativeDocumentMoniker": "Admin\\Admin.Master",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\Admin\\Admin.Master",
+              "RelativeToolTip": "Admin\\Admin.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-23T15:06:16.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddItem.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\Admin\\AddItem.aspx",
+              "RelativeDocumentMoniker": "Admin\\AddItem.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\Admin\\AddItem.aspx",
+              "RelativeToolTip": "Admin\\AddItem.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-18T14:32:36.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\login.aspx.cs",
+              "RelativeDocumentMoniker": "login.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\login.aspx.cs",
+              "RelativeToolTip": "login.aspx.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T16:45:51.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HP_ONEDRIVE_DESKTOP_ASP.NET_PARVEZ_SIR_CAFE_MANAGAMENT_APP_DATA_CAFEDB.MDF/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HP_ONEDRIVE_DESKTOP_ASP.NET_PARVEZ_SIR_CAFE_MANAGAMENT_APP_DATA_CAFEDB.MDF/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-16T08:03:55.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\register.aspx.cs",
+              "RelativeDocumentMoniker": "User\\register.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\register.aspx.cs",
+              "RelativeToolTip": "User\\register.aspx.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T05:16:05.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contact.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\contact.aspx",
+              "RelativeDocumentMoniker": "User\\contact.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\contact.aspx",
+              "RelativeToolTip": "User\\contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-16T04:52:55.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\login.aspx",
+              "RelativeDocumentMoniker": "login.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\login.aspx",
+              "RelativeToolTip": "login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-14T16:35:22.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\index.aspx",
+              "RelativeDocumentMoniker": "User\\index.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\index.aspx",
+              "RelativeToolTip": "User\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-16T04:52:46.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "blog.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\blog.aspx",
+              "RelativeDocumentMoniker": "User\\blog.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\blog.aspx",
+              "RelativeToolTip": "User\\blog.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-16T05:02:49.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "category.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\category.aspx",
+              "RelativeDocumentMoniker": "User\\category.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\category.aspx",
+              "RelativeToolTip": "User\\category.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-16T04:58:55.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "register.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\register.aspx",
+              "RelativeDocumentMoniker": "User\\register.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\register.aspx",
+              "RelativeToolTip": "User\\register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-16T04:52:15.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "category.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\category.aspx.cs",
+              "RelativeDocumentMoniker": "User\\category.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\User\\category.aspx.cs",
+              "RelativeToolTip": "User\\category.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T05:23:32.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\index.aspx",
+              "RelativeDocumentMoniker": "index.aspx",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\index.aspx",
+              "RelativeToolTip": "index.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-14T16:20:22.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\register.aspx.cs",
+              "RelativeDocumentMoniker": "register.aspx.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\asp.net_parvez_sir\\Cafe_Managament\\register.aspx.cs",
+              "RelativeToolTip": "register.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T09:16:50.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.User_tbl.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HP_ONEDRIVE_DESKTOP_ASP.NET_PARVEZ_SIR_CAFE_MANAGAMENT_APP_DATA_CAFEDB.MDF/True/SqlTable/dbo.User_tbl.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_HP_ONEDRIVE_DESKTOP_ASP.NET_PARVEZ_SIR_CAFE_MANAGAMENT_APP_DATA_CAFEDB.MDF/True/SqlTable/dbo.User_tbl.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-13T09:15:35.534Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
