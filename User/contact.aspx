@@ -59,7 +59,7 @@
 
         .btn-custom {
             background-color: #e3342f !important;
-            color: #fff !important; /* Force white text */
+            color: #fff !important; 
             font-weight: 700;
             font-size: 18px;
             padding: 12px 30px;
@@ -70,14 +70,14 @@
             display: inline-block;
             width: 100%;
             text-align: center;
-            letter-spacing: 1px; /* thoda stylish look */
+            letter-spacing: 1px; 
         }
 
             .btn-custom:hover {
                 background-color: #c5302f !important;
                 transform: translateY(-2px);
                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-                color: #fff !important; /* Hover pe bhi white */
+                color: #fff !important;
             }
 
 

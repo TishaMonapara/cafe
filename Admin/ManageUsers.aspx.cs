@@ -30,7 +30,7 @@ namespace Cafe_Managament.Admin
                 DataTable dt = new DataTable();
                 da.Fill(dt);
 
-                GridView1.DataSource = dt;   // ✅ ab sahi ID use ho rahi hai
+                GridView1.DataSource = dt;   
                 GridView1.DataBind();
             }
         }
@@ -42,7 +42,7 @@ namespace Cafe_Managament.Admin
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Example: selected row ka Id nikalna
+            
             string id = (GridView1.SelectedRow.FindControl("Label1") as Label).Text;
             Response.Write("Selected UserID = " + id);
         }

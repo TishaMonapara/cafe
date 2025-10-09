@@ -5,20 +5,20 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        /* GridView container */
+        
         .grid-container {
             margin-top: 40px;
             max-width: 90%;
-            background: rgba(255, 250, 243, 0.9); /* cream */
+            background: rgba(255, 250, 243, 0.9); 
             border-radius: 16px;
-            box-shadow: 0 8px 25px rgba(75, 46, 46, 0.5); /* coffee shadow */
+            box-shadow: 0 8px 25px rgba(75, 46, 46, 0.5); 
             padding: 20px;
         }
 
-        /* Table header */
+        
         .grid-container th {
-            background: #4b2e2e; /* coffee brown */
-            color: #f5e6d3 !important; /* beige text */
+            background: #4b2e2e; 
+            color: #f5e6d3 !important;
             font-weight: bold;
             text-align: center;
             padding: 12px;
@@ -26,7 +26,7 @@
             letter-spacing: 1px;
         }
 
-        /* Table rows */
+       
         .grid-container td {
             padding: 12px;
             text-align: center;
@@ -34,22 +34,22 @@
             font-weight: 500;
         }
 
-        /* Alternate row color */
+        
         .grid-container tr:nth-child(even) td {
-            background: #f5e6d3; /* beige */
+            background: #f5e6d3;
         }
 
         .grid-container tr:nth-child(odd) td {
-            background: #fffaf3; /* cream */
+            background: #fffaf3; 
         }
 
-        /* Hover effect */
+       
         .grid-container tr:hover td {
-            background: #e6d2c3; /* light coffee hover */
+            background: #e6d2c3; 
             transition: 0.3s ease-in-out;
         }
 
-        /* Rounded table */
+        
         .grid-container table {
             border-collapse: collapse;
             overflow: hidden;
@@ -95,12 +95,6 @@
                     <asp:TemplateField HeaderText="Phone">
                         <ItemTemplate>
                             <asp:Label ID="Label5" runat="server" Text='<%# Eval("Phone") %>'></asp:Label>
-                        </ItemTemplate>
-                    </asp:TemplateField>
-
-                    <asp:TemplateField HeaderText="Password">
-                        <ItemTemplate>
-                            <asp:Label ID="Label8" runat="server" Text='<%# Eval("Password") %>'></asp:Label>
                         </ItemTemplate>
                     </asp:TemplateField>
 

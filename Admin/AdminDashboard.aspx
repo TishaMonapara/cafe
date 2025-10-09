@@ -37,16 +37,16 @@
     <h2 class="mb-4">Welcome to Admin Dashboard 👋</h2>
 
     <div class="dashboard-cards">
-        <!-- Manage Menu -->
+        
         <div class="card text-white bg-primary">
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-card-list"></i> Menu Items</h5>
                 <p class="card-text">Add, update, or remove food & drink items.</p>
-                <a href="ViewMenu.aspx" class="btn btn-light">Manage Menu</a>
+                <a href="admin_add_product.aspx" class="btn btn-light">Manage Menu</a>
             </div>
         </div>
 
-        <!-- Orders -->
+        
         <div class="card text-white bg-success">
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-basket-fill"></i> Orders</h5>
@@ -55,16 +55,9 @@
             </div>
         </div>
 
-        <!-- Reports -->
-        <div class="card text-white bg-warning">
-            <div class="card-body">
-                <h5 class="card-title"><i class="bi bi-bar-chart-fill"></i> Reports</h5>
-                <p class="card-text">Generate sales and performance reports.</p>
-                <a href="Reports.aspx" class="btn btn-dark">View Reports</a>
-            </div>
-        </div>
+        
 
-        <!-- Users -->
+       
         <div class="card text-white bg-danger">
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-people-fill"></i> Users</h5>

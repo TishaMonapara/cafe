@@ -17,13 +17,13 @@
         }
 
         .glass-card {
-            background: rgba(255, 255, 255, 0.15); /* transparency */
+            background: rgba(255, 255, 255, 0.15); 
             border-radius: 20px;
             padding: 40px;
             width: 400px;
             color: #fff;
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(12px); /* glass effect */
+            backdrop-filter: blur(12px); 
             -webkit-backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.18);
             text-align: left;

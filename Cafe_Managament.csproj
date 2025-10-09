@@ -67,12 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin\AddItem.aspx" />
     <Content Include="Admin\AdminContact.aspx" />
     <Content Include="Admin\AdminDashboard.aspx" />
+    <Content Include="Admin\admin_add_category.aspx" />
+    <Content Include="Admin\admin_add_product.aspx" />
     <Content Include="Admin\Logout.aspx" />
     <Content Include="Admin\ManageUsers.aspx" />
-    <Content Include="Admin\ViewMenu.aspx" />
     <Content Include="images\createorder.jpg" />
     <Content Include="images\viewmenu.jpg" />
     <Content Include="User\.gitignore" />
@@ -81,8 +81,6 @@
     <Content Include="App_Data\cafeDB_log.ldf">
       <DependentUpon>cafeDB.mdf</DependentUpon>
     </Content>
-    <Content Include="User\blog.aspx" />
-    <Content Include="User\category.aspx" />
     <Content Include="User\contact.aspx" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap-grid.css" />
@@ -115,6 +113,7 @@
     <Content Include="images\login.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\register-bg.png" />
+    <Content Include="User\display.aspx" />
     <Content Include="User\index.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
@@ -130,19 +129,11 @@
     <Content Include="js\popper.min.js" />
     <Content Include="js\slider-setting.js" />
     <Content Include="login.aspx" />
-    <Content Include="User\PlaceOrder.aspx" />
     <Content Include="User\register.aspx" />
-    <Content Include="User\ViewMenu.aspx" />
+    <Content Include="User\ViewDetails.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin\AddItem.aspx.cs">
-      <DependentUpon>AddItem.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\AddItem.aspx.designer.cs">
-      <DependentUpon>AddItem.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Admin\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -164,6 +155,20 @@
     <Compile Include="Admin\AdminDashboard.aspx.designer.cs">
       <DependentUpon>AdminDashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\admin_add_category.aspx.cs">
+      <DependentUpon>admin_add_category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_add_category.aspx.designer.cs">
+      <DependentUpon>admin_add_category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_add_product.aspx.cs">
+      <DependentUpon>admin_add_product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_add_product.aspx.designer.cs">
+      <DependentUpon>admin_add_product.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Logout.aspx.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -178,13 +183,6 @@
     <Compile Include="Admin\ManageUsers.aspx.designer.cs">
       <DependentUpon>ManageUsers.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\ViewMenu.aspx.cs">
-      <DependentUpon>ViewMenu.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\ViewMenu.aspx.designer.cs">
-      <DependentUpon>ViewMenu.aspx</DependentUpon>
-    </Compile>
     <Compile Include="User\about.aspx.cs">
       <DependentUpon>about.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -192,26 +190,19 @@
     <Compile Include="User\about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User\blog.aspx.cs">
-      <DependentUpon>blog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\blog.aspx.designer.cs">
-      <DependentUpon>blog.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\category.aspx.cs">
-      <DependentUpon>category.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\category.aspx.designer.cs">
-      <DependentUpon>category.aspx</DependentUpon>
-    </Compile>
     <Compile Include="User\contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="User\contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\display.aspx.cs">
+      <DependentUpon>display.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\display.aspx.designer.cs">
+      <DependentUpon>display.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -228,13 +219,6 @@
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\PlaceOrder.aspx.cs">
-      <DependentUpon>PlaceOrder.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\PlaceOrder.aspx.designer.cs">
-      <DependentUpon>PlaceOrder.aspx</DependentUpon>
-    </Compile>
     <Compile Include="User\register.aspx.cs">
       <DependentUpon>register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -249,12 +233,12 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="User\ViewMenu.aspx.cs">
-      <DependentUpon>ViewMenu.aspx</DependentUpon>
+    <Compile Include="User\ViewDetails.aspx.cs">
+      <DependentUpon>ViewDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User\ViewMenu.aspx.designer.cs">
-      <DependentUpon>ViewMenu.aspx</DependentUpon>
+    <Compile Include="User\ViewDetails.aspx.designer.cs">
+      <DependentUpon>ViewDetails.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -280,7 +264,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Admin\images\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

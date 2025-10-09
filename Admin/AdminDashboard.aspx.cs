@@ -11,7 +11,7 @@ namespace Cafe_Managament.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Only allow admin
+            
             if (Session["Role"] == null || Session["Role"].ToString().ToLower() != "admin")
             {
                 Response.Redirect("~/login.aspx");
