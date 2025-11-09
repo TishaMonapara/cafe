@@ -11,8 +11,9 @@ namespace Cafe_Managament.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-            
+            Session.Clear();       
+            Session.Abandon();     
+            Response.Redirect("../login.aspx");  
         }
     }
 }
