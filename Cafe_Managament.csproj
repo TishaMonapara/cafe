@@ -73,6 +73,7 @@
     <Content Include="Admin\admin_add_product.aspx" />
     <Content Include="Admin\Logout.aspx" />
     <Content Include="Admin\ManageUsers.aspx" />
+    <Content Include="Admin\view_orders.aspx" />
     <Content Include="images\createorder.jpg" />
     <Content Include="images\viewmenu.jpg" />
     <Content Include="User\.gitignore" />
@@ -184,6 +185,13 @@
     </Compile>
     <Compile Include="Admin\ManageUsers.aspx.designer.cs">
       <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\view_orders.aspx.cs">
+      <DependentUpon>view_orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\view_orders.aspx.designer.cs">
+      <DependentUpon>view_orders.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\about.aspx.cs">
       <DependentUpon>about.aspx</DependentUpon>

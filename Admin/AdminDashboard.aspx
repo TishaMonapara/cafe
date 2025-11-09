@@ -51,7 +51,7 @@
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-basket-fill"></i> Orders</h5>
                 <p class="card-text">View and track all customer orders.</p>
-                <a href="Orders.aspx" class="btn btn-light">View Orders</a>
+                <a href="view_orders.aspx" class="btn btn-light">View Orders</a>
             </div>
         </div>
 

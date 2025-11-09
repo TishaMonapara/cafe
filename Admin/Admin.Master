@@ -108,7 +108,7 @@
         <div class="sidebar">
             <h4>Cafe Admin</h4>
             <a href="AdminDashboard.aspx"><i class="bi bi-house-door-fill"></i> Dashboard</a>
-            <a href="admin_add_category.aspx"><i class="bi bi-card-list"></i> Add Category</a>
+            <a href="view_orders.aspx"><i class="bi bi-card-list"></i> Orders</a>
             
             <a href="admin_add_product.aspx"><i class="bi bi-basket-fill"></i>Add Product</a>
             <a href="AdminContact.aspx"><i class="bi bi-basket-fill"></i> AdminContact</a>
