@@ -1,0 +1,3 @@
+﻿ALTER TABLE cart_tbl
+ADD CONSTRAINT FK_Cart_User FOREIGN KEY (UserID)
+REFERENCES Users(UserID);

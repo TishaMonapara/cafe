@@ -36,11 +36,7 @@ namespace Cafe_Managament.User
 
         void fillgrid()
         {
-            // 🔹 Remove login redirect check (since login already required globally)
-            // if (Session["user_email"] == null)
-            // {
-            //     Response.Redirect("~/login.aspx");
-            // }
+            
 
             getcon();
 
@@ -95,7 +91,7 @@ namespace Cafe_Managament.User
         {
             getcon();
 
-            da = new SqlDataAdapter("SELECT * FROM Users WHERE Email='" + Session["user_email"].ToString() + "'", con);
+            da = new SqlDataAdapter("SELECT * FROM Users WHERE Email='" + Session["UserEmail"].ToString() + "'", con);
             ds = new DataSet();
             da.Fill(ds);
 
@@ -107,7 +103,7 @@ namespace Cafe_Managament.User
                 {
                     if (row.RowType == DataControlRowType.DataRow && row.RowIndex < GridView1.DataKeys.Count)
                     {
-                        int prodcartid = Convert.ToInt32(GridView1.DataKeys[row.RowIndex].Value);
+                        int Prod_Cart_Id = Convert.ToInt32(GridView1.DataKeys[row.RowIndex].Value);
                         TextBox txtQty = (TextBox)row.FindControl("txtQuantity");
 
                         int quantity;
@@ -115,13 +111,18 @@ namespace Cafe_Managament.User
                         if (quantity < 1) quantity = 1;
 
                         cmd = new SqlCommand("UPDATE cart_tbl SET Prod_Quantity = " + quantity +
-                                             " WHERE UserID = " + uid + " AND Prod_Cart_Id = " + prodcartid, con);
+                                             " WHERE UserID = " + uid + " AND Prod_Cart_Id = " + Prod_Cart_Id, con);
                         cmd.ExecuteNonQuery();
                     }
                 }
 
                 fillgrid();
             }
+        }
+
+        protected void BtnCheckout_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("checkout.aspx");
         }
     }
 }

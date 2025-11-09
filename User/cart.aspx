@@ -40,13 +40,11 @@
             transition: background-color 0.3s ease;
         }
 
-        /* Image Styling */
         #ContentPlaceHolder2_GridView1 img {
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        /* Text Input Styling */
         #ContentPlaceHolder2_GridView1 input[type="text"] {
             width: 60px;
             padding: 8px;
@@ -62,7 +60,6 @@
             box-shadow: 0 0 0 2px rgba(47, 79, 79, 0.2);
         }
 
-        /* Remove Button */
         #ContentPlaceHolder2_GridView1 a {
             color: #d9534f;
             text-decoration: none;
@@ -77,7 +74,6 @@
             color: white;
         }
 
-        /* Update Button */
         #ContentPlaceHolder2_Button1 {
             background-color: #2f4f4f;
             color: white;
@@ -94,7 +90,6 @@
             background-color: #3a5f5f;
         }
 
-        /* Total Label */
         #ContentPlaceHolder2_Lblfinaltotal {
             display: block;
             font-size: 18px;
@@ -104,6 +99,25 @@
             background-color: #f8f9fa;
             border-radius: 4px;
             border-left: 4px solid #2f4f4f;
+        }
+
+        /* ✅ Checkout Button */
+        #ContentPlaceHolder2_BtnCheckout {
+            background-color: #00695c;
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        #ContentPlaceHolder2_BtnCheckout:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
         }
     </style>
 </asp:Content>
@@ -160,9 +174,14 @@
         </Columns>
     </asp:GridView>
 
+    <!-- Update Cart Button -->
     <asp:Button ID="Button1" runat="server" Text="Update Cart" OnClick="Button1_Click" />
     <br />
     <asp:Label ID="Lblfinaltotal" runat="server" Text="Final Total: ₹0.00"></asp:Label>
+    <br />
+
+    <!-- ✅ Proceed to Checkout Button -->
+    <asp:Button ID="BtnCheckout" runat="server" Text="Proceed to Checkout" OnClick="BtnCheckout_Click" />
 </asp:Content>
 
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server"></asp:Content>
