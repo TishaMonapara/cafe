@@ -1,112 +1,141 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ViewDetails.aspx.cs" Inherits="Cafe_Managament.User.ViewDetails" %>
+﻿<%@ Page Title="Product Details" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ViewDetails.aspx.cs" Inherits="Cafe_Managament.User.ViewDetails" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-     <style>
-        .details-container {
+    <style>
+        /* 🌅 Background Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url('../images/userbg.jpeg') center center / cover no-repeat fixed;
+            background-size: cover;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 🌫️ Soft Blur Overlay */
+        .overlay {
+            backdrop-filter: blur(6px);
+            background-color: rgba(255, 245, 230, 0.75);
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            flex-direction: column;
+            padding: 40px 0;
         }
 
-        .details-card {
-            background: #ffffff;
-            padding: 25px;
-            width: 450px;
-            border-radius: 12px;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-            text-align: center;
+        /* 🌟 Title */
+        h2.page-title {
+            color: #4d2600;
+            text-shadow: 0 2px 10px rgba(255, 255, 255, 0.8);
+            margin-bottom: 25px;
+            font-size: 34px;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.6);
+            padding: 10px 25px;
+            border-radius: 10px;
         }
+
+        /* 🟫 Product Card */
+        .details-card {
+            background: rgba(255, 255, 255, 0.93);
+            padding: 25px;
+            width: 420px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .details-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            }
 
             .details-card img {
                 border-radius: 10px;
                 margin-bottom: 15px;
+                width: 360px;
+                height: 240px;
+                object-fit: cover;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
             }
 
             .details-card h3 {
-                color: #333;
+                color: #a0522d;
                 margin: 10px 0;
                 font-size: 24px;
+                font-weight: 700;
             }
 
             .details-card p {
-                margin: 5px 0;
-                color: #555;
+                margin: 6px 0;
+                color: #4d2600;
                 font-size: 15px;
+                line-height: 1.6;
             }
 
             .details-card strong {
                 color: #222;
             }
 
-        .btn-add-cart {
-            margin-top: 15px;
-            padding: 10px 20px;
-            background: #28a745;
-            border: none;
-            border-radius: 6px;
-            color: white;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-            .btn-add-cart:hover {
-                background: #218838;
-            }
-
+        /* 🟤 Button Style */
         .btn-back {
-            margin: 15px auto 0 auto; 
-            padding: 8px 18px;
-            background: #ff5e62;
+            margin-top: 18px;
+            padding: 10px 22px;
+            background: linear-gradient(90deg, #a0522d, #8b4513);
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             color: white;
             cursor: pointer;
-            transition: 0.3s;
-            display: block; 
-            width: max-content; 
+            transition: all 0.3s ease;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
         }
-
 
             .btn-back:hover {
-                background: #ff3035;
+                background: linear-gradient(90deg, #8b4513, #5c2e0c);
+                transform: scale(1.05);
             }
 
-        .details-wrapper {
-            display: flex;
-            justify-content: center;
-            width: 100%;
+        /* 📱 Responsive */
+        @media (max-width: 500px) {
+            .details-card {
+                width: 90%;
+            }
+
+                .details-card img {
+                    width: 100%;
+                    height: 220px;
+                }
+
+            h2.page-title {
+                font-size: 26px;
+            }
         }
     </style>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
-    <div class="details-wrapper">
-        <center>
-            <h2>Product Details</h2>
+    <div class="overlay">
+        <h2 class="page-title">Product Details</h2>
 
-            <div class="details-container">
-                <asp:DataList ID="DataList1" runat="server" OnSelectedIndexChanged="DataList1_SelectedIndexChanged">
-                    <ItemTemplate>
-                        <div class="details-card">
-                            <asp:Image ID="Image1" runat="server" Height="250px" Width="350px" ImageUrl='<%# Eval("Image") %>' />
-                            <h3><%# Eval("Name") %></h3>
-                            <p><strong>Category:</strong> <%# Eval("Category") %></p>
-                            <p><strong>Price:</strong> ₹<%# Eval("Price") %></p>
-                            <p><strong>Description:</strong> <%# Eval("Description") %></p>
+        <asp:DataList ID="DataList1" runat="server">
+            <ItemTemplate>
+                <div class="details-card">
+                    <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("Image") %>' />
+                    <h3><%# Eval("Name") %></h3>
+                    <p><strong>Category:</strong> <%# Eval("Category") %></p>
+                    <p><strong>Price:</strong> ₹ <%# Eval("Price") %></p>
+                    <p><strong>Description:</strong> <%# Eval("Description") %></p>
 
-                           
-                            <br />
-                            <asp:Button ID="btnBack" runat="server" Text="Back to Menu" CssClass="btn-back" PostBackUrl="display.aspx" />
-                        </div>
-                    </ItemTemplate>
-                </asp:DataList>
-            </div>
-        </center>
-
-    </div><br /><br /><br />
+                    <asp:Button ID="btnBack" runat="server"
+                        Text="Back to Menu"
+                        CssClass="btn-back"
+                        PostBackUrl="display.aspx" />
+                </div>
+            </ItemTemplate>
+        </asp:DataList>
+    </div>
 </asp:Content>

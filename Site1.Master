@@ -1,139 +1,164 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Cafe_Managament.Site1" %>
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head runat="server">
-    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coffee Bites</title>
+
+    <!-- Bootstrap & Font Awesome -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+    <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #fffaf5;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* 🌟 Navbar */
+    .navbar {
+        background: #5c3d2e !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .navbar-brand img {
+        width: 120px;
+    }
+    .nav-link {
+        color: #fff !important;
+        padding: 10px 18px;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+    .nav-link:hover {
+        color: #ffd8a8 !important;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+    }
+
+    /* 🌟 Footer (static, always bottom) */
+    footer {
+        background: linear-gradient(135deg, #5c3d2e, #3e2723);
+        color: #fff8f0;
+        text-align: center;
+        padding: 40px 20px 25px;
+        margin-top: auto;
+    }
+
+    .footer-title {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #ffd8a8;
+    }
+    .footer-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: #ffd8a8;
+        margin: 10px auto;
+        border-radius: 3px;
+    }
+
+    .footer-social {
+        margin: 15px 0;
+    }
+    .footer-social a {
+        display: inline-block;
+        color: #fff;
+        font-size: 22px;
+        margin: 0 10px;
+        transition: all 0.3s ease;
+    }
+    .footer-social a:hover {
+        color: #ffd8a8;
+        transform: translateY(-4px);
+    }
+
+    .footer-contact {
+        font-size: 15px;
+        color: #f3e5ab;
+    }
+    .footer-contact i {
+        margin-right: 8px;
+        color: #ffd8a8;
+    }
+
+    .copyright {
+        background: #3b2a23;
+        padding: 10px;
+        color: #e2c9a1;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+</style>
+
 </head>
+
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                <head>
-                    <!-- basic -->
-                    <meta charset="utf-8">
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1">
-                    <!-- site metas -->
-                    <title>Coffo</title>
-                    <meta name="keywords" content="">
-                    <meta name="description" content="">
-                    <meta name="author" content="">
-                    <!-- bootstrap css -->
-                    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-                    <!-- style css -->
-                    <link rel="stylesheet" type="text/css" href="../css/style.css">
-                    <!-- Responsive-->
-                    <link rel="stylesheet" href="../css/responsive.css">
-                    <!-- fevicon -->
-                    <link rel="icon" href="../images/fevicon.png" type="image/gif" />
-                    <!-- font css -->
-                    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-                    <!-- Scrollbar Custom CSS -->
-                    <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
-                    <!-- Tweaks for older IEs-->
-                    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-                </head>
-            </asp:ContentPlaceHolder>
-
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-                <body>
-                    <div class="header_section">
-                        <div class="container">
-                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                                <a class="navbar-brand" href="~/User/index.aspx">
-                                    <img src="../images/logo.png"></a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item active"><a class="nav-link" href="/User/index.aspx">Home</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/User/about.aspx">About</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/User/display.aspx">Display</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/User/cart.aspx">cart</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/User/contact.aspx">Contact</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/User/register.aspx">Register</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="../login.aspx">Login</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/User/logout.aspx">Logout</a></li>
-
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
-                        <!-- banner section start -->
-                        <div class="banner_section layout_padding">
-                            <div class="container">
-                                <div id="banner_slider" class="carousel slide" data-ride="carousel">
-                                    <!-- Your banner items same as before -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- banner section end -->
-                    </div>
-            </asp:ContentPlaceHolder>
-
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
-                <!-- footer section start -->
-                <div class="footer_section layout_padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="footer_social_icon">
-                                    <ul>
-                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="location_text">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-phone" aria-hidden="true"></i><span class="padding_left_10">+01 1234567890</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-envelope" aria-hidden="true"></i><span class="padding_left_10">demo@gmail.com</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="update_mail" placeholder="Your Email" rows="5" id="comment" name="Your Email"></textarea>
-                                    <div class="subscribe_bt"><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- 🌟 Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/User/index.aspx">
+                    <img src="/Images/logo.png" alt="Coffee Bites" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="/User/index.aspx">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/User/about.aspx">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/User/display.aspx">Display</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/User/cart.aspx">Cart</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/User/contact.aspx">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/User/register.aspx">Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login.aspx">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/User/logout.aspx">Logout</a></li>
+                    </ul>
                 </div>
-                <div class="copyright_section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <p class="copyright_text">
-                                    2025 All Rights Reserved. Design by Coffee Bites
-                               
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </nav>
 
-                <!-- Javascript files-->
-                <script src="../js/jquery.min.js"></script>
-                <script src="../js/popper.min.js"></script>
-                <script src="../js/bootstrap.bundle.min.js"></script>
-                <script src="../js/jquery-3.0.0.min.js"></script>
-                <script src="../js/plugin.js"></script>
-                <!-- sidebar -->
-                <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
-                <script src="../js/custom.js"></script>
-            </asp:ContentPlaceHolder>
-        </div>
+        <!-- 🌟 Main Page Content -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- 🌟 Footer -->
+        <footer>
+    <div class="footer-title">Coffee Bites ☕</div>
+    <p class="footer-contact"><i class="fa-solid fa-phone"></i> +01 1234567890 &nbsp; | &nbsp;
+        <i class="fa-solid fa-envelope"></i> coffeebites@gmail.com</p>
+    <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+    <div class="copyright">
+        © 2025 <strong>Coffee Bites</strong> — All Rights Reserved.
+    </div>
+</footer>
+
+        <!-- JS -->
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
     </form>
 </body>
 </html>

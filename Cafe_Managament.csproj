@@ -75,6 +75,8 @@
     <Content Include="Admin\ManageUsers.aspx" />
     <Content Include="Admin\view_orders.aspx" />
     <Content Include="images\createorder.jpg" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\userbg.jpeg" />
     <Content Include="images\viewmenu.jpg" />
     <Content Include="User\.gitignore" />
     <Content Include="User\about.aspx" />
@@ -106,14 +108,12 @@
     <Content Include="css\slick.css" />
     <Content Include="css\style.css" />
     <Content Include="images\about-img.png" />
-    <Content Include="images\banner-bg.png" />
     <Content Include="images\footer-bg.png" />
     <Content Include="images\header-bg.png" />
     <Content Include="images\img-1.png" />
     <Content Include="images\img-2.jpg" />
     <Content Include="images\img-3.png" />
     <Content Include="images\img-4.png" />
-    <Content Include="images\login.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\register-bg.png" />
     <Content Include="User\display.aspx" />
