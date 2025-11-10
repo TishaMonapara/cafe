@@ -35,9 +35,9 @@
             transition: 0.4s ease;
         }
 
-        .checkout-container:hover {
-            transform: translateY(-5px);
-        }
+            .checkout-container:hover {
+                transform: translateY(-5px);
+            }
 
         /* 🌟 Heading */
         h2 {
@@ -69,14 +69,38 @@
             transition: 0.3s;
         }
 
-        input:focus, textarea:focus, select:focus {
-            outline: none;
-            background: rgba(255, 255, 255, 0.25);
-        }
+            input:focus, textarea:focus, select:focus {
+                outline: none;
+                background: rgba(255, 255, 255, 0.25);
+            }
 
         textarea {
             resize: none;
         }
+        /* 🔽 Fix for Payment Dropdown Visibility */
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            font-weight: 600;
+            cursor: pointer;
+            position: relative;
+        }
+
+            select option {
+                background-color: #3b2f2f; /* dark brown café tone */
+                color: #fff;
+                padding: 10px;
+                font-size: 15px;
+            }
+
+            /* Dropdown arrow style */
+            select::-ms-expand {
+                display: none;
+            }
 
         /* 🛍️ Order Summary Table */
         .summary-title {
@@ -97,22 +121,22 @@
             overflow: hidden;
         }
 
-        .table th {
-            background: rgba(255, 255, 255, 0.15);
-            color: #ffd9a0;
-            text-align: left;
-            padding: 12px;
-        }
+            .table th {
+                background: rgba(255, 255, 255, 0.15);
+                color: #ffd9a0;
+                text-align: left;
+                padding: 12px;
+            }
 
-        .table td {
-            padding: 10px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            color: #fff;
-        }
+            .table td {
+                padding: 10px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                color: #fff;
+            }
 
-        .table tr:hover {
-            background: rgba(255, 255, 255, 0.08);
-        }
+            .table tr:hover {
+                background: rgba(255, 255, 255, 0.08);
+            }
 
         /* 💰 Final Total */
         .total {
@@ -143,10 +167,10 @@
             margin-top: 20px;
         }
 
-        .btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
-        }
+            .btn:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
+            }
 
         /* 📱 Responsive */
         @media (max-width: 768px) {
