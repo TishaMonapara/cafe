@@ -4,42 +4,78 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
-        .grid-container {
-            max-width: 1000px;
-            margin: 30px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        /* Full-page café background */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #3b2f2f;
         }
+
+        /* Overlay for grid */
+        .overlay {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: rgba(255, 248, 240, 0.85);
+            border-radius: 20px;
+            padding: 30px 25px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
         h2 {
             text-align: center;
             font-size: 28px;
-            font-weight: bold;
-            color: #4b2e2e;
-            margin-bottom: 20px;
+            font-weight: 700;
+            color: #4b2e05;
+            margin-bottom: 25px;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
+
+        /* Grid / Table styling */
         .gridview-style {
             width: 100%;
             border-collapse: collapse;
+            font-size: 0.95rem;
         }
-        .gridview-style th {
-            background-color: #4b2e2e;
-            color: white;
+
+        .gridview-style th, .gridview-style td {
+            border: 1px solid #d1bfa7;
             padding: 10px;
-            text-align: left;
+            text-align: center;
         }
-        .gridview-style td {
-            padding: 8px;
-            border-bottom: 1px solid #ddd;
+
+        .gridview-style th {
+            background-color: #a9746e; /* coffee brown */
+            color: #fff;
+            font-weight: 600;
         }
+
+        .gridview-style tr:nth-child(even) {
+            background-color: rgba(169, 116, 110, 0.15);
+        }
+
         .gridview-style tr:hover {
-            background-color: #f5f5f5;
+            background-color: rgba(169, 116, 110, 0.3);
+        }
+
+        /* Responsive */
+        @media(max-width: 600px) {
+            .overlay {
+                padding: 15px;
+            }
+            .gridview-style th, .gridview-style td {
+                font-size: 0.85rem;
+                padding: 8px;
+            }
         }
     </style>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div class="grid-container">
+    <div class="overlay">
         <h2>📩 Contact Messages</h2>
 
         <asp:GridView ID="gvContacts" runat="server" AutoGenerateColumns="False" CssClass="gridview-style"
